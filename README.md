@@ -1,2 +1,2 @@
-# ishx.github.com
-ishx Homepage
+# ishx Homepage
+Please visit: http://ishx.io
