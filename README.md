@@ -13,7 +13,7 @@ Please visit: [http://ishx.io](http://ishx.io).
 ## Contributing
 
 You are most welcome to contribute to this website development by [forking this repository on GitHub](https://github.com/ishx/ishx.github.io) and sending pull requests, or filing bug reports at the 
-[issues page](http://github.comishx/ishx.github.io/issues). If it is a big feature,
+[issues page](http://github.com/ishx/ishx.github.io/issues). If it is a big feature,
 you might want to start an Issue first to make sure it's something that will
 be accepted.  If it involves code, please also write tests for it.
 
