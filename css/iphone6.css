@@ -13,7 +13,7 @@ email: me@ishx.io
 	width: 430px;
 	height: 887px;
 	margin-top: -444px;
-	margin-left: -216px;
+	margin-left: -215px;
 
 	background-color: white;
     -webkit-border-radius: 40px;
@@ -26,13 +26,9 @@ email: me@ishx.io
 
 #iphone6-body{
 	position: absolute;
-	top: 50%;
-	left: 50%;
 
-	width: 410px;
-	height: 867px;
-	margin-top: -434px;
-	margin-left: -206px;
+	width: 430px;
+	height: 887px;
 
 	-webkit-border-radius: 35px;
 	border-radius: 35px;
@@ -40,53 +36,79 @@ email: me@ishx.io
 	background-color: white;
 }
 
-#iphone6-body-head{
+#iphone6-head{
 	position: absolute;
-	top: 0px;
+	top: 10px;
+	right: 10px;
+	left: 10px;
 
-	width: 100%;
+	width: auto;
 	height: 100px;
 
-	-webkit-border-radius: 35px 35px 0px 0px;
-	border-radius: 35px 35px 0px 0px;
+	-webkit-border-radius: 32.5px 32.5px 0px 0px;
+	border-radius: 32.5px 32.5px 0px 0px;
 
 	background-color: #C9FFE5;
+	z-index: 2
 }
 
-#iphone6-body-left{
+#iphone6-left{
 	position: absolute;
-	top: 100px;
-	left: 0px;
+	top: 110px;
+	left: 10px;
 
 	width: 17.5px;
 	height: 667px;
 
 	background-color: #C9FFE5;
+	z-index: 2
 }
 
-#iphone6-body-screen {
+#iphone6-right{
 	position: absolute;
-	top: 100px;
-	left: 50%;
+	top: 110px;
+	right: 10px;
 
-	//overflow: hidden;
-	width: 375px;
+	width: 17.5px;
 	height: 667px;
-	//margin-top: -333.5px;
-	margin-left: -187.5px;
 
+	background-color: #C9FFE5;
+	z-index: 2
+}
+
+#iphone6-screen {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+
+
+	//width: 375px;
+	//height: 667px;
+	width: auto;
+	//margin: 100px 17.5px 100px 17.5px;
+	margin: 10px;
+	border-top: 100px solid  #C9FFE5;
+	border-right: 17.5px solid  #C9FFE5;
+	border-bottom: 100px solid  #C9FFE5;
+	border-left: 17.5px solid  #C9FFE5;
+
+	-webkit-border-radius: 32.5px;
+	border-radius: 32.5px;
+
+	padding: 0px;
 	background: white;
 }
 
-#iphone6-body-screen-status-bar{
+#iphone6-screen-status-bar{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
 
-    width:100%;
-    height:40px;
+    width: 100%;
+    height: 40px;
+    margin: 0;
 
-    padding: 0px 0px 0px 0px;
     background-color: white;
 
     border-bottom: 0px dashed #C9FFE5;
@@ -97,14 +119,16 @@ email: me@ishx.io
     
 }
 
-#iphone6-body-screen-content{
+#iphone6-screen-content{
     position: absolute;
     top: 40px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0px 0px 0px 0px;
-    height: 627px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    //width: 100%;
+    //height: 627px;
+    width: auto;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
@@ -112,43 +136,48 @@ email: me@ishx.io
     z-index: 1
 }
 
-#iphone6-body-right{
+#iphone6-foot{
 	position: absolute;
-	top: 100px;
-	right: 0px;
+	bottom: 10px;
+	right: 10px;
+	left: 10px;
 
-	width: 17.5px;
-	height: 667px;
-
-	background-color: #C9FFE5;
-}
-
-#iphone6-body-foot{
-	position: absolute;
-	bottom: 0px;
-
-	width: 100%;
+	width: auto;
 	height: 100px;
 
-	-webkit-border-radius: 0px 0px 35px 35px;
-	border-radius: 0px 0px 35px 35px;
+	-webkit-border-radius: 0px 0px 32.5px 32.5px;
+	border-radius: 0px 0px 32.5px 32.5px;
 
 	background-color: #C9FFE5;
+	z-index: 2
 }
 
 #iphone6-touch-id{
 	position: absolute;
-	top: 10px;
+	top: 50%;
 	left: 50%;
 
 	width: 70px;
 	height: 70px;
 
-	margin-left: -35px;
+	margin-left: -40px;
+	margin-top: -40px;
 
 	border: 5px solid  #FF91AF;
-	-webkit-border-radius: 45px;
-	border-radius: 45px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
 
 	background-color: white;
+}
+
+#iphone6-touch-id svg {
+  height: 70px;
+  width: 70px;
+}
+
+#iphone6-touch-id svg circle {
+  fill: transparent;
+  cx: 35px;
+  cy: 35px;
+  r: 35px;
 }
