@@ -48,7 +48,7 @@ email: me@ishx.io
         border-radius: 0
 
     }
-    #iphone6-head {
+/*    #iphone6-head {
         display: none
     }
     #iphone6-left {
@@ -66,7 +66,7 @@ email: me@ishx.io
     }
     #iphone6-touch-id {
         display: none;
-    }
+    }*/
 }
 
 #iphone6-head {
@@ -87,15 +87,50 @@ email: me@ishx.io
 	z-index: 2
 }
 
+#iphone6-frontcam {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 16px;
+    height: 16px;
+
+    margin-top: -8px;
+    margin-left: -80px;
+
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+    background-color: black;
+}
+
+#iphone6-distdetect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 10px;
+    height: 10px;
+
+    margin-top: -35px;
+    margin-left: -5px;
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    background-color: black;
+}
+
 #iphone6-earphone {
     position: absolute;
     top: 50%;
     left: 50%;
 
-    width: 60px;
+    width: 80px;
     height: 10px;
 
-    margin-left: -30px;
+    margin-top: -5px;
+    margin-left: -40px;
 
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -140,10 +175,10 @@ email: me@ishx.io
 	width: auto;
 	//margin: 100px 17.5px 100px 17.5px;
 	margin: 10px;
-	//border-top: 100px solid  #C9FFE5;
-	//border-right: 17.5px solid  #C9FFE5;
-	//border-bottom: 100px solid  #C9FFE5;
-	//border-left: 17.5px solid  #C9FFE5;
+	border-top: 100px solid  #C9FFE5;
+	border-right: 17.5px solid  #C9FFE5;
+	border-bottom: 100px solid  #C9FFE5;
+	border-left: 17.5px solid  #C9FFE5;
 
 	-webkit-border-radius: 32.5px;
 	border-radius: 32.5px;
@@ -261,8 +296,8 @@ a[data-battery] {
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    color: #666;
-    z-index: 1
+    color: 666;
+    z-index: 2
 }
 
 #iphone6-screen-tab {
