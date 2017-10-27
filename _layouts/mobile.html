@@ -3,11 +3,16 @@ layout: default
 ---
 
 <div id = "iphone6">
+    <div id = "iphone6-head">
+    </div>
     <div id = "iphone6-screen">
         <div id = "iphone6-screen-status-bar">
-            <div align="center" vertical-align = "middle">
-                <h3>ishx Mobile</h3>
-            </div>
+            <img src= "{{ "assets/img/ios11/ios11-cellular-signal-icon.png" | relative_url }}" alt="cellular"/>
+            <img src= "{{ "assets/img/ios11/ios10-lte-status-icon.png" | relative_url }}" alt="lte"/>
+            <img src= "{{ "assets/img/ios11/ios10-wifi-symbol-status-icon.png" | relative_url }}" alt="wifi"/>
+            <a id="ishxClock" data-clock> </a>
+            <img src= "{{ "assets/img/ios11/ios10-battery-charging-status-icon.png" | relative_url }}" alt="battery">
+            <a data-battery>100%</a>
         </div>
         <div id = "iphone6-screen-content">
             {{ content }}
@@ -16,7 +21,7 @@ layout: default
     <div id = "iphone6-foot">
         <div id = "iphone6-touch-id">
         <svg>
-            <a xlink:href={{ " " | relative_url }}><circle/></a>
+            <a xlink:href= "{{ " " | relative_url }}" ><circle/></a>
         </svg>
         </div>
     </div>

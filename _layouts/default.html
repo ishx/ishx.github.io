@@ -5,7 +5,7 @@
         <title>{{ site.title }} {{ page.title }}</title>
     </head>
     <!-- hack iOS CSS :active style -->
-    <body ontouchstart="">
+    <body ontouchstart="" onload= "startTime()">
         <div class="container">
             <!--{ %include intro.html %}-->
             {% include navbar.html %} 

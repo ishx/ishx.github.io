@@ -49,6 +49,8 @@ email: me@ishx.io
 	border-radius: 32.5px 32.5px 0px 0px;
 
 	background-color: #C9FFE5;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 	z-index: 2
 }
 
@@ -106,22 +108,82 @@ email: me@ishx.io
     top: 0px;
 
     width: 100%;
-    height: 40px;
-    margin: 0;
+    height: 20px;
+    margin: 0px;
 
     background-color: white;
 
     border-bottom: 0px dashed #C9FFE5;
 
     -webkit-overflow-scrolling: touch;
-    color: #00FFFF;
+    color: black;
     z-index: 1
     
 }
 
+img[alt="cellular"] {
+    height: 16px;
+    //width: 31px;
+    padding-left: 5px;
+    padding-top: 3px;
+    float: left
+}
+
+img[alt="lte"] {
+    height: 16px;
+    //width: 31px;
+    //padding-left: 5px;
+    padding-top: 5px;
+    float: left;
+}
+
+img[alt="wifi"] {
+    height: 16px;
+    //width: 30px;
+    //padding-left: 5px;
+    padding-top: 3px;
+    float: left;
+}
+
+img[alt="orientation"] {
+    height: 16px;
+    //width: 30px;
+    padding-right: 0px;
+    padding-top: 3px;
+    float: right;
+}
+
+img[alt="battery"] {
+    height: 24px;
+    //width: 46px;
+    //padding-left: 5px;
+    padding-top: 3px;
+    float: right;
+}
+
+#iphone6-screen-status-bar a{
+    vertical-align: middle;
+    line-height: 20px;
+}
+a[data-clock] {
+    text-align: center;
+    //vertical-align: middle;
+    padding-left: 75px;
+    //line-height: 20px;
+}
+
+
+a[data-battery] {
+    text-align: right;
+    //vertical-align: middle;
+    padding-left:75px;
+    //padding-right: 5px;
+    line-height: 20px;
+}
+
 #iphone6-screen-content{
     position: absolute;
-    top: 40px;
+    top: 20px;
     right: 0px;
     bottom: 0px;
     left: 0px;
@@ -149,6 +211,8 @@ email: me@ishx.io
 	border-radius: 0px 0px 32.5px 32.5px;
 
 	background-color: #C9FFE5;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 	z-index: 2
 }
 
@@ -180,4 +244,14 @@ email: me@ishx.io
   cx: 35px;
   cy: 35px;
   r: 35px;
+}
+
+#iphone6-screen svg {
+	height: 667;
+	width: 375;
+}
+
+#iphone6-screen svg rect{
+	height: 667;
+	width: 375;
 }
