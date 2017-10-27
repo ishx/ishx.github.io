@@ -2,11 +2,11 @@
 
 - [building](https://github.com/ishx/)|[running](https://ishx.github.io/)
 
-Please visit: [http://ishx.io](http://ishx.io).
+Please visit: <http://ishx.io>.
 
 ## Preview
 
-<img alt="image" style="border-width:0" src="https://github.com/ishx/ishx.github.io/blob/master/res/screenshot.png" >
+<img alt="image" style="border-width:0" src="https://github.com/ishx/ishx.github.io/blob/master/assets/img/screenshot-awesome.png" >
 
 <!--iframe width="100%" height="100%" frameborder = '0' src="http://ishx.io"></iframe-->
 
