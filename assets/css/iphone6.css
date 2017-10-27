@@ -24,7 +24,7 @@ email: me@ishx.io
     transform: translate3d(0, 0, 0)
 }
 
-#iphone6-body{
+#iphone6-body {
 	position: absolute;
 
 	width: 430px;
@@ -36,7 +36,40 @@ email: me@ishx.io
 	background-color: white;
 }
 
-#iphone6-head{
+@media (max-width: 480px) {
+    #iphone6 {
+        left:0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: 0;
+        width: auto;
+        -webkit-border-radius: 0;
+        border-radius: 0
+
+    }
+    #iphone6-head {
+        display: none
+    }
+    #iphone6-left {
+        display: none
+    }
+    #iphone6-right {
+        display: none
+    }
+    #iphone6-screen-status-bar {
+    }
+    #iphone6-screen-content {
+    }
+    #iphone6-foot {
+        display: none;
+    }
+    #iphone6-touch-id {
+        display: none;
+    }
+}
+
+#iphone6-head {
 	position: absolute;
 	top: 10px;
 	right: 10px;
@@ -54,7 +87,23 @@ email: me@ishx.io
 	z-index: 2
 }
 
-#iphone6-left{
+#iphone6-earphone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 60px;
+    height: 10px;
+
+    margin-left: -30px;
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    background-color: black;
+}
+
+#iphone6-left {
 	position: absolute;
 	top: 110px;
 	left: 10px;
@@ -91,10 +140,10 @@ email: me@ishx.io
 	width: auto;
 	//margin: 100px 17.5px 100px 17.5px;
 	margin: 10px;
-	border-top: 100px solid  #C9FFE5;
-	border-right: 17.5px solid  #C9FFE5;
-	border-bottom: 100px solid  #C9FFE5;
-	border-left: 17.5px solid  #C9FFE5;
+	//border-top: 100px solid  #C9FFE5;
+	//border-right: 17.5px solid  #C9FFE5;
+	//border-bottom: 100px solid  #C9FFE5;
+	//border-left: 17.5px solid  #C9FFE5;
 
 	-webkit-border-radius: 32.5px;
 	border-radius: 32.5px;
@@ -181,7 +230,24 @@ a[data-battery] {
     line-height: 20px;
 }
 
-#iphone6-screen-content{
+#iphone6-screen-nav {
+    position: absolute;
+    top: 20px;
+
+    width: 100%;
+    height: 44px;
+    margin: 0px;
+
+    background-color: white;
+
+    border-bottom: 0px dashed #C9FFE5;
+
+    -webkit-overflow-scrolling: touch;
+    color: black;
+    z-index: 1
+}
+
+#iphone6-screen-content {
     position: absolute;
     top: 20px;
     right: 0px;
@@ -191,10 +257,28 @@ a[data-battery] {
     //width: 100%;
     //height: 627px;
     width: auto;
+    height: auto;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     color: #666;
+    z-index: 1
+}
+
+#iphone6-screen-tab {
+    position: absolute;
+    bottom: 0px;
+
+    width: 100%;
+    height: 49px;
+    margin: 0px;
+
+    background-color: white;
+
+    border-bottom: 0px dashed #C9FFE5;
+
+    -webkit-overflow-scrolling: touch;
+    color: black;
     z-index: 1
 }
 

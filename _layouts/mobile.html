@@ -4,7 +4,10 @@ layout: default
 
 <div id = "iphone6">
     <div id = "iphone6-head">
+        <div id = "iphone6-earphone"></div>
     </div>
+    <div id = "iphone6-left"></div>
+    <div id = "iphone6-right"></div>
     <div id = "iphone6-screen">
         <div id = "iphone6-screen-status-bar">
             <img src= "{{ "assets/img/ios11/ios11-cellular-signal-icon.png" | relative_url }}" alt="cellular"/>
@@ -14,9 +17,12 @@ layout: default
             <img src= "{{ "assets/img/ios11/ios10-battery-charging-status-icon.png" | relative_url }}" alt="battery">
             <a data-battery>100%</a>
         </div>
+        <div id = "iphone6-screen-nav"></div>
+        <div id = "iphone6-screen-tab"></div>
         <div id = "iphone6-screen-content">
             {{ content }}
         </div>
+
     </div>
     <div id = "iphone6-foot">
         <div id = "iphone6-touch-id">
