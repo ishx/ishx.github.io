@@ -309,7 +309,7 @@ a[data-battery] {
     overflow-x: hidden;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    color: 666;
+    color: #666;
     z-index: 2
 }
 
