@@ -21,7 +21,8 @@ layout: default
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        {{ post.excerpt }}
+        <!-- {{ post.excerpt }} -->
+        {% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}
 
       </li>
     {% endfor %}
