@@ -4,7 +4,7 @@ Date: Tue, 10 Oct, 2017
 author: Xiao Shang
 email: me@ishx.io
 */
-html,body {
+/*html,body {
     width: 100%;
     height: 100%;
     padding: 0;
@@ -18,16 +18,17 @@ body {
     background-color: #E9FBF8;
     background-image: -webkit-radial-gradient(ellipse farthest-corner at 50% 0, #DBF5F1 0%, #9BE4D8 100%);
     background-image: radial-gradient(ellipse farthest-corner at 50% 0, #DBF5F1 0%, #9BE4D8 100%)
-}
+}*/
 
 #iphone6 {
 	position: absolute;
-	top: 50%;
+	//top: 50%;
+    top: 30px;
 	left: 50%;
 
 	width: 430px;
 	height: 887px;
-	margin-top: -444px;
+	//margin-top: -404px;
 	margin-left: -215px;
 
 	background-color: white;
@@ -35,8 +36,8 @@ body {
     border-radius: 40px;
     -webkit-box-shadow: 0 0 40px 0 #FF91AF;
     box-shadow: 0 0 40px 0 #FF91AF;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
+/*    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)*/
 }
 
 #iphone6-body {

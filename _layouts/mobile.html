@@ -1,36 +1,41 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div id = "iphone6">
-    <div id = "iphone6-head">
-        <div id = "iphone6-frontcam"></div>
-        <div id = "iphone6-distdetect"></div>
-        <div id = "iphone6-earphone"></div>
-    </div>
-    <div id = "iphone6-left"></div>
-    <div id = "iphone6-right"></div>
-    <div id = "iphone6-screen">
-        <div id = "iphone6-screen-status-bar">
-            <img src= "{{ "assets/img/ios11/ios11-cellular-signal-icon.png" | relative_url }}" alt="cellular"/>
-            <img src= "{{ "assets/img/ios11/ios10-lte-status-icon.png" | relative_url }}" alt="lte"/>
-            <img src= "{{ "assets/img/ios11/ios10-wifi-symbol-status-icon.png" | relative_url }}" alt="wifi"/>
-            <a id="ishxClock" data-clock> </a>
-            <img src= "{{ "assets/img/ios11/ios10-battery-charging-status-icon.png" | relative_url }}" alt="battery">
-            <a data-battery>100%</a>
-        </div>
-        <div id = "iphone6-screen-nav"></div>
-        <div id = "iphone6-screen-tab"></div>
-        <div id = "iphone6-screen-content">
-            {{ content }}
-        </div>
+    {% include head.html %}
 
-    </div>
-    <div id = "iphone6-foot">
-        <div id = "iphone6-touch-id">
-        <svg>
-            <a xlink:href= "{{ " " | relative_url }}" ><circle/></a>
-        </svg>
+    <body>
+
+    <div id = "iphone6">
+        <div id = "iphone6-head">
+            <div id = "iphone6-frontcam"></div>
+            <div id = "iphone6-distdetect"></div>
+            <div id = "iphone6-earphone"></div>
+        </div>
+        <div id = "iphone6-left"></div>
+        <div id = "iphone6-right"></div>
+        <div id = "iphone6-screen">
+            <div id = "iphone6-screen-status-bar">
+                <img src= "{{ "assets/img/ios11/ios11-cellular-signal-icon.png" | relative_url }}" alt="cellular"/>
+                <img src= "{{ "assets/img/ios11/ios10-lte-status-icon.png" | relative_url }}" alt="lte"/>
+                <img src= "{{ "assets/img/ios11/ios10-wifi-symbol-status-icon.png" | relative_url }}" alt="wifi"/>
+                <a id="ishxClock" data-clock> </a>
+                <img src= "{{ "assets/img/ios11/ios10-battery-charging-status-icon.png" | relative_url }}" alt="battery">
+                <a data-battery>100%</a>
+            </div>
+            <div id = "iphone6-screen-nav"></div>
+            <div id = "iphone6-screen-tab"></div>
+            <div id = "iphone6-screen-content">
+                {{ content }}
+            </div>
+
+        </div>
+        <div id = "iphone6-foot">
+            <div id = "iphone6-touch-id">
+            <svg>
+                <a xlink:href= "{{ " " | relative_url }}" ><circle/></a>
+            </svg>
+            </div>
         </div>
     </div>
-</div>
+    </body>
+</html>
