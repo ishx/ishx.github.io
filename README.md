@@ -24,7 +24,7 @@ be accepted.  If it involves code, please also write tests for it.
 </a>
 
 The source code for the site is licensed under the MIT license, which you can find in
-the [LICENSE](https://github.com/ishxiao/ishx.github.io/blob/master/LICENSE) file.
+the [LICENSE](https://github.com/ishx/ishx.github.io/blob/master/LICENSE) file.
 
 All graphical assets are licensed under the
 [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
