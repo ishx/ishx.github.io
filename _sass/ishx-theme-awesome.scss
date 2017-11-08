@@ -34,6 +34,15 @@ $content-width:    800px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
+//
+$navicon-size: 36px;
+$navline-size: $navicon-size/1.5;
+$navicon-color: white;
+// $navicon-color-before: rgba(255,0,0,0.8);
+// $navicon-color-after: rgba(0,0,255,0.8);
+$navicon-color-before: $navicon-color;
+$navicon-color-after: $navicon-color;
+$navicon-transition: .3s;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -54,7 +63,7 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "ishx-theme-awesome/base",
+  "ishx-theme-awesome/layout",
+  "ishx-theme-awesome/syntax-highlighting"
 ;
