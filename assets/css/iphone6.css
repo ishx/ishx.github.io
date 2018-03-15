@@ -275,8 +275,8 @@ a[data-clock] {
 a[data-battery] {
     text-align: right;
     vertical-align: middle;
-    padding-left: 80px;
-    //padding-right: 10px;
+    padding-left: 188px;
+    /*padding-right: 30px;*/
     line-height: 20px;
 }
 
